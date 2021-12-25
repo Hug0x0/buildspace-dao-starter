@@ -163,7 +163,7 @@ const memberList = useMemo(() => {
         console.error("failed to nft balance", error);
       });
   }, [address]);
-  
+
 if (error && error.name === "UnsupportedChainIdError") {
   return (
     <div className="unsupported-network">
@@ -192,7 +192,7 @@ if (error && error.name === "UnsupportedChainIdError") {
  if (hasClaimedNFT) {
     return (
       <div className="member-page">
-        <h1>🍪DAO Member Page</h1>
+        <h1>🇫🇷SKDAO Member Page</h1>
         <p>Congratulations on being a member</p>
         <div>
           <div>
